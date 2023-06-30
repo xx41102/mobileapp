@@ -143,7 +143,7 @@ body {
 }
 
 .important1:active {
-    transform: scale(2,2) translateX(400px) translateY(400px);
+    transform: scale(2,2) translateX(100px) translateY(150px);
 }
 
 
