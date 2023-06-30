@@ -171,6 +171,9 @@ body {
         font-size: xx-small;
     }
 
+    .busyo,.name333{
+        white-space: nowrap;
+    }
     
     
     .important2{
