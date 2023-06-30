@@ -177,12 +177,12 @@ body {
     
     .sp > .important:active{
          display:inline-block;
-         transform-origin: center;
-         transform:scale(1.5,1.5) rotate(90deg);
+         transform:rotate(90deg);
+    }
     .sp > .important {
          transition-property: border-radius;
          transition-property: transform;
          transition-duration: 1.5s;
-         transform-origin: center;
+         transform-origin: 50% 50%;
 }
 }
