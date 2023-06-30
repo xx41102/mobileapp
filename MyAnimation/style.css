@@ -122,7 +122,6 @@ body {
     left: 90px;
     z-index: 2;
     position: absolute;
-    white-space: nowrap;
 }
 
 .busyo,
@@ -147,7 +146,13 @@ body {
     transform: scale(2,2) translateX(500px);
 }
 
-
+.name222{
+    font-size:xx-large;
+    font-family: "BIZ UDGothic", serif;
+}
+.name333{
+    font-size:large;
+}
 @media screen and (max-width:480px) {
     .pc{
         display:none;
