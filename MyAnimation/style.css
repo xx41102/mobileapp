@@ -143,8 +143,7 @@ body {
 }
 
 .pc > .important:active {
-    display:inline-block;
-    transform: scale(2.5,2.5) translateX(400px) translateY(-100px);
+    transform: scale(1.5,1.5) translateX(400px) translateY(-100px);
 }
 
 
