@@ -141,7 +141,7 @@ body {
 
 .important:active {
 
-    transform: translateY(15px) rotate(180deg) translateY(-30px) rotateY(180deg);
+    transform: translateY(-15px) rotateY(180deg);
 }
 
 
