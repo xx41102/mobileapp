@@ -71,7 +71,10 @@ body {
 
 .address1,
 .address2,
-.telnumber {
+.telnumber ,,name{
+    position:absolute;
+    top:250px;
+    left:400px;
     font-size: xx-small;
 }
 
@@ -138,9 +141,9 @@ body {
     font-size: smaller;
 }
 
-.important:active {
-    transform: rotateY(180deg);
-    transform:translateY(-50px);
+.important:focus {
+    transform: rotateX(180deg);
+    transform: translateY(-50px);
 }
 
 
