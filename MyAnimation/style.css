@@ -162,7 +162,6 @@ body {
     main {
         width: 60%;
         height:60%;
-        font-size : 10px;
     }
     
     .address1,
@@ -175,7 +174,10 @@ body {
         white-space: nowrap;
     }
     
-    
+    .personal{
+        height:600px;
+        white-space: nowrap;
+    }
     .important2{
          display:inline-block;
          transform-origin:center;
