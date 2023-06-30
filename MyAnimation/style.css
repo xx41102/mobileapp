@@ -141,7 +141,7 @@ body {
     font-size: smaller;
 }
 
-.important:focus {
+.important:hover {
     transform: rotateX(180deg);
     transform: translateY(-50px);
 }
