@@ -71,10 +71,7 @@ body {
 
 .address1,
 .address2,
-.telnumber ,,name{
-    position:absolute;
-    top:250px;
-    left:400px;
+.telnumber{
     font-size: xx-small;
 }
 
@@ -141,7 +138,7 @@ body {
     font-size: smaller;
 }
 
-.important:hover {
+.important:active {
     transform: rotateX(180deg);
     transform: translateY(-50px);
 }
@@ -153,6 +150,14 @@ body {
         height:50%;
         margin: 0px 0 10px 0;
         font-size : 10px;
+    }
+    .address1,
+    .address2,
+    .telnumber ,.name{
+        position:absolute;
+        top:250px;
+        left:400px;
+        font-size: xx-small;
     }
     
 }
