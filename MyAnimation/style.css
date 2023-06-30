@@ -141,12 +141,12 @@ body {
 }
 
 .name222{
-    font-size:900;
+    font-size:24pt;
     font-family: SimSun, serif;
     font-weight: bolder;
 }
 .name333{
-    font-size:600;
+    font-size:14pt;
 }
 @media screen and (max-width:480px) {
     .pc{
