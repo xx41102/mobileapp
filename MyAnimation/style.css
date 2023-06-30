@@ -180,6 +180,6 @@ body {
          transition-property: border-radius;
          transition-property: transform;
          transition-duration: 1.5s;
-         transform-origin: 50% 50%;
+         transform-origin: right bottom;
     }
 }
