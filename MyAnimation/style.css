@@ -130,13 +130,7 @@ body {
     font-family: "BIZ UDGothic", serif;
 }
 
-.name {
-    font-size: xx-large;
-    font-family: SimSun, serif;
-    font-weight: bold;
-    margin-top: 6px;
-    margin-bottom: 3px;
-}
+
 
 .mail {
     font-size: smaller;
@@ -148,7 +142,8 @@ body {
 
 .name222{
     font-size:900;
-    font-family: "BIZ UDGothic", serif;
+    font-family: SimSun, serif;
+    font-weight: bolder;
 }
 .name333{
     font-size:600;
