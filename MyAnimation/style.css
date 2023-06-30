@@ -152,5 +152,15 @@ body {
         font-size: xx-small;
     }
 
-    
+    .name{
+        font-size:large;
+    }
+
+    .important:active{
+        display:none;
+    }
+
+    .important:active{
+         transform:scale(2,2) rotate(270deg);
+    }
 }
