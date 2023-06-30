@@ -147,11 +147,11 @@ body {
 }
 
 .name222{
-    font-size:xx-large;
+    font-size:900;
     font-family: "BIZ UDGothic", serif;
 }
 .name333{
-    font-size:large;
+    font-size:600;
 }
 @media screen and (max-width:480px) {
     .pc{
