@@ -181,7 +181,7 @@ body {
     }
     
     .important2:active{
-         transform:translateX(-250px) translateY(300px) scale(1.2,1.2) rotate(-90deg);
+         transform:translateX(-200px) translateY(300px) scale(1.5,1.5) rotate(-90deg);
     }
     
 }
