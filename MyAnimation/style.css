@@ -150,9 +150,6 @@ body {
     .address1,
     .address2,
     .telnumber ,.name{
-        position:absolute;
-        top:340px;
-        left:10px;
         font-size: xx-small;
     }
 
