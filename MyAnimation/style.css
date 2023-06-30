@@ -77,7 +77,8 @@ body {
 .address2,
 .telnumber{
     position:absolute;
-    
+    top: 340px;
+    left: 80px;
     font-size: xx-small;
 }
 
@@ -175,10 +176,10 @@ body {
     }
     
     .important2:active{
-         display:inline-block;
          transform:rotate(90deg);
     }
     .important2{
+         display:inline-block;
          transition-property: border-radius;
          transition-property: transform;
          transition-duration: 1.5s;
