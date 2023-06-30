@@ -148,7 +148,6 @@ body {
 @media screen and (max-width:480px) {
     main {
         width: 30%;
-        margin:0px 0 0px 0;
         height:30%
     }
 }
