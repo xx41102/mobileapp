@@ -96,7 +96,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 150px;
-    margin-left: 0px;
+    margin-left: 400px;
     background: color-mix(in srgb-linear, yellow 30%, white 70%);
     box-shadow: 10px 5px 3px gray;
     top: 0;
@@ -159,7 +159,10 @@ body {
         left:410px;
         font-size: xx-small;
     }
-    
+
+    *{
+        margin-left:-400px;
+    }
 }
 
 
