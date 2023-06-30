@@ -128,6 +128,7 @@ body {
 .ka {
     font-size: small;
     font-family: "BIZ UDGothic", serif;
+    witdth:200px;
 }
 
 
@@ -147,6 +148,7 @@ body {
 }
 .name333{
     font-size:14pt;
+    witdth:200px;
 }
 @media screen and (max-width:480px) {
     .pc{
