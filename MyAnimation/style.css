@@ -109,9 +109,8 @@ body {
 .important {
     transition-property: border-radius;
     transition-property: transform;
-    transition-duration: 1.5s;
+    transition-duration: 1s;
     transform-origin: center;
-    transition-timing-function: ease-in;
 }
 
 .personal {
@@ -140,7 +139,8 @@ body {
 }
 
 .important:active {
-    transform: translateY(30px);
+    transform: rotateY(180deg);
+    transform:translateY(-50px);
 }
 
 
