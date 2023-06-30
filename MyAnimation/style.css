@@ -110,7 +110,7 @@ body {
     transition-property: border-radius;
     transition-property: transform;
     transition-duration: 1.5s;
-    transform-origin: top left;
+    transform-origin: center;
     transition-timing-function: ease-in;
 }
 
@@ -140,8 +140,7 @@ body {
 }
 
 .important:active {
-
-    transform: rotateY(180deg);
+    transform: translateY(30px);
 }
 
 
