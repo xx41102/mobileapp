@@ -143,7 +143,7 @@ body {
 }
 
 .important1:active {
-    transform: scale(2,2) translateX(100px) translateY(150px);
+    transform: scale(2,2) translate(150px,150px);
 }
 
 
@@ -173,15 +173,15 @@ body {
     }
     
     .important2{
-         transform-origin: bottom　right;
          display:inline-block;
+         transform-origin:center;
          transition-property: border-radius;
          transition-property: transform;
          transition-duration: 1.5s;
     }
     
     .important2:active{
-         transform:translatesY(-350px) scale(1.2,1.2) rotate(-90deg);
+         transform:translatesY(50px) scale(1.2,1.2) rotate(-90deg);
     }
     
 }
