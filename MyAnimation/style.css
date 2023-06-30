@@ -76,6 +76,9 @@ body {
 .address1,
 .address2,
 .telnumber{
+    position:absolute;
+    top:340px;
+    left:10px;
     font-size: xx-small;
 }
 
@@ -97,7 +100,7 @@ body {
     width: 400px;
     height: 250px;
     line-height: 250px;
-    display: inline-block;
+    display: flex;
     justify-content: center;
     margin: 150px;
     margin-left: 0px;
