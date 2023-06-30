@@ -112,7 +112,7 @@ body {
     outline: 2px solid black;
 }
 
-.pc > .important {
+.important1 {
     transition-property: border-radius;
     transition-property: transform;
     transition-duration: 1s;
@@ -144,7 +144,7 @@ body {
     font-size: smaller;
 }
 
-.pc > .important:active {
+.important1:active {
     transform: scale(1.5,1.5) translateX(400px) translateY(-100px);
 }
 
@@ -155,7 +155,7 @@ body {
     }
 
     .sp{
-        display:inline-block;
+        display:block;
     }
     
     main {
@@ -174,14 +174,14 @@ body {
         font-size:x-large;
     }
     
-    .sp > .important:active{
+    .important2:active{
          display:inline-block;
          transform:rotate(90deg);
     }
-    .sp > .important {
+    .important2{
          transition-property: border-radius;
          transition-property: transform;
          transition-duration: 1.5s;
          transform-origin: 50% 50%;
-}
+    }
 }
