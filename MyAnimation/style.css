@@ -4,6 +4,14 @@ main {
     vertical-align: top;
 }
 
+.pc{
+    display:block;
+}
+
+.sp{
+    display:none;
+}
+
 body {
     background: pink;
 }
@@ -134,12 +142,20 @@ body {
     font-size: smaller;
 }
 
-.important:active {
+.pc > .important:active {
     transform: scale(1.5,1.5) translateX(300px) translateY(-100px);
 }
 
 
 @media screen and (max-width:480px) {
+    .pc{
+        display:none;
+    }
+
+    .sp{
+        display:block;
+    }
+    
     main {
         width: 60%;
         height:60%;
@@ -148,19 +164,15 @@ body {
     
     .address1,
     .address2,
-    .telnumber ,.name{
+    .telnumber{
         font-size: xx-small;
     }
 
     .name{
-        font-size:large;
+        font-size:x-large;
     }
-
-    .important:active{
-        display:none;
-    }
-
-    .important:active{
+    
+    .sp > .important:active{
          transform:scale(2,2) rotate(270deg);
     }
 }
