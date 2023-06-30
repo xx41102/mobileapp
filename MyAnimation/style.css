@@ -77,8 +77,7 @@ body {
 .address2,
 .telnumber{
     position:absolute;
-    top:340px;
-    left:10px;
+    
     font-size: xx-small;
 }
 
