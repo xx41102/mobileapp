@@ -11,12 +11,32 @@ const squaresArray = Array.from(squares);
 const a_1 = document.getElementById("a_1");
 const a_2 = document.getElementById("a_2");
 const a_3 = document.getElementById("a_3");
+const a_4 = document.getElementById("a_4");
+const a_5 = document.getElementById("a_5");
+
 const b_1 = document.getElementById("b_1");
 const b_2 = document.getElementById("b_2");
 const b_3 = document.getElementById("b_3");
+const b_4 = document.getElementById("b_4");
+const b_5 = document.getElementById("b_5");
+
 const c_1 = document.getElementById("c_1");
 const c_2 = document.getElementById("c_2");
 const c_3 = document.getElementById("c_3");
+const c_4 = document.getElementById("c_4");
+const c_5 = document.getElementById("c_5");
+
+const d_1 = document.getElementById("d_1");
+const d_2 = document.getElementById("d_2");
+const d_3 = document.getElementById("d_3");
+const d_4 = document.getElementById("d_4");
+const d_5 = document.getElementById("d_5");
+
+const e_1 = document.getElementById("e_1");
+const e_2 = document.getElementById("e_2");
+const e_3 = document.getElementById("e_3");
+const e_4 = document.getElementById("e_4");
+const e_5 = document.getElementById("e_5");
 
 const newgamebtn_display = document.getElementById("newgame-btn");
 const newgamebtn = document.getElementById("btn90");
