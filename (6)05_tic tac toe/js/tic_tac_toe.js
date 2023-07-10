@@ -42,6 +42,25 @@ const newgamebtn_display = document.getElementById("newgame-btn");
 const newgamebtn = document.getElementById("btn90");
 
 const line1 = JudgeLine(squaresArray, ["a_1","a_2","a_3"]);
+const line1 = JudgeLine(squaresArray, ["a_2","a_3","a_4"]);
+const line1 = JudgeLine(squaresArray, ["a_3","a_4","a_5"]);
+
+const line1 = JudgeLine(squaresArray, ["b_1","b_2","b_3"]);
+const line1 = JudgeLine(squaresArray, ["b_2","b_3","b_4"]);
+const line1 = JudgeLine(squaresArray, ["b_3","b_4","b_5"]);
+
+const line1 = JudgeLine(squaresArray, ["c_1","c_2","c_3"]);
+const line1 = JudgeLine(squaresArray, ["c_2","c_3","c_4"]);
+const line1 = JudgeLine(squaresArray, ["c_3","c_4","c_5"]);
+
+const line1 = JudgeLine(squaresArray, ["d_1","d_2","d_3"]);
+const line1 = JudgeLine(squaresArray, ["d_2","d_3","d_4"]);
+const line1 = JudgeLine(squaresArray, ["d_3","d_4","d_5"]);
+
+const line1 = JudgeLine(squaresArray, ["e_1","e_2","e_3"]);
+const line1 = JudgeLine(squaresArray, ["e_2","e_3","e_4"]);
+const line1 = JudgeLine(squaresArray, ["e_3","e_4","e_5"]);
+
 const line2 = JudgeLine(squaresArray, ["b_1","b_2","b_3"]);
 const line3 = JudgeLine(squaresArray, ["c_1","c_2","c_3"]);
 const line4 = JudgeLine(squaresArray, ["a_1","b_1","c_1"]);
