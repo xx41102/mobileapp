@@ -2,7 +2,7 @@
 
 let flag = "A-flag";
 
-let counter = 9;
+let counter = 25;
 
 const squares = document.getElementsByClassName("square");
 
