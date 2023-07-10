@@ -85,8 +85,8 @@ header{
 
 .square{
     position:relative;
-    width:calc(196px/3);
-    height:calc(196px/3);
+    width:calc(196px/5);
+    height:calc(196px/5);
     border: solid 2px #333;
 }
 
