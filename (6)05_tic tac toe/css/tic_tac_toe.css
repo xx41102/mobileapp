@@ -72,12 +72,12 @@ header{
     display:flex;
     flex-wrap:wrap;
     margin:0 auto;
-    width: 310px;
+    width: 259px;
 }
 
 .squares-box{
-    width:260px;
-    height:260px;
+    width:259px;
+    height:259px;
     display:flex;
     flex-wrap: wrap;
     border: solid 2px #333;
