@@ -4,6 +4,7 @@ let flag = "A-flag";
 
 let counter = 9;
 
+
 const squares = document.getElementsByClassName("square");
 
 const squaresArray = Array.from(squares);
