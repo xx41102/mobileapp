@@ -76,8 +76,8 @@ header{
 }
 
 .squares-box{
-    width:259px;
-    height:259px;
+    width:261px;
+    height:261px;
     display:flex;
     flex-wrap: wrap;
     border: solid 2px #333;
