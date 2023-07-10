@@ -42,32 +42,68 @@ const newgamebtn_display = document.getElementById("newgame-btn");
 const newgamebtn = document.getElementById("btn90");
 
 const line1 = JudgeLine(squaresArray, ["a_1","a_2","a_3"]);
-const line1 = JudgeLine(squaresArray, ["a_2","a_3","a_4"]);
-const line1 = JudgeLine(squaresArray, ["a_3","a_4","a_5"]);
+const line2 = JudgeLine(squaresArray, ["a_2","a_3","a_4"]);
+const line3 = JudgeLine(squaresArray, ["a_3","a_4","a_5"]);
 
-const line1 = JudgeLine(squaresArray, ["b_1","b_2","b_3"]);
-const line1 = JudgeLine(squaresArray, ["b_2","b_3","b_4"]);
-const line1 = JudgeLine(squaresArray, ["b_3","b_4","b_5"]);
+const line4 = JudgeLine(squaresArray, ["b_1","b_2","b_3"]);
+const line5 = JudgeLine(squaresArray, ["b_2","b_3","b_4"]);
+const line6 = JudgeLine(squaresArray, ["b_3","b_4","b_5"]);
 
-const line1 = JudgeLine(squaresArray, ["c_1","c_2","c_3"]);
-const line1 = JudgeLine(squaresArray, ["c_2","c_3","c_4"]);
-const line1 = JudgeLine(squaresArray, ["c_3","c_4","c_5"]);
+const line7 = JudgeLine(squaresArray, ["c_1","c_2","c_3"]);
+const line8 = JudgeLine(squaresArray, ["c_2","c_3","c_4"]);
+const line9 = JudgeLine(squaresArray, ["c_3","c_4","c_5"]);
 
-const line1 = JudgeLine(squaresArray, ["d_1","d_2","d_3"]);
-const line1 = JudgeLine(squaresArray, ["d_2","d_3","d_4"]);
-const line1 = JudgeLine(squaresArray, ["d_3","d_4","d_5"]);
+const line10 = JudgeLine(squaresArray, ["d_1","d_2","d_3"]);
+const line11 = JudgeLine(squaresArray, ["d_2","d_3","d_4"]);
+const line12 = JudgeLine(squaresArray, ["d_3","d_4","d_5"]);
 
-const line1 = JudgeLine(squaresArray, ["e_1","e_2","e_3"]);
-const line1 = JudgeLine(squaresArray, ["e_2","e_3","e_4"]);
-const line1 = JudgeLine(squaresArray, ["e_3","e_4","e_5"]);
+const line13 = JudgeLine(squaresArray, ["e_1","e_2","e_3"]);
+const line14 = JudgeLine(squaresArray, ["e_2","e_3","e_4"]);
+const line15 = JudgeLine(squaresArray, ["e_3","e_4","e_5"]);
 
-const line2 = JudgeLine(squaresArray, ["b_1","b_2","b_3"]);
-const line3 = JudgeLine(squaresArray, ["c_1","c_2","c_3"]);
-const line4 = JudgeLine(squaresArray, ["a_1","b_1","c_1"]);
-const line5 = JudgeLine(squaresArray, ["a_2","b_2","c_2"]);
-const line6 = JudgeLine(squaresArray, ["a_3","b_3","c_3"]);
-const line7 = JudgeLine(squaresArray, ["a_1","b_2","c_3"]);
-const line8 = JudgeLine(squaresArray, ["a_3","b_2","c_1"]);
+const line16 = JudgeLine(squaresArray, ["a_1","b_1","c_1"]);
+const line17 = JudgeLine(squaresArray, ["a_2","b_2","c_2"]);
+const line18 = JudgeLine(squaresArray, ["a_3","b_3","c_3"]);
+const line19 = JudgeLine(squaresArray, ["a_4","b_4","c_4"]);
+const line20 = JudgeLine(squaresArray, ["a_5","b_5","c_5"]);
+
+
+const line21 = JudgeLine(squaresArray, ["b_1","c_1","d_1"]);
+const line22 = JudgeLine(squaresArray, ["b_2","c_2","d_2"]);
+const line23 = JudgeLine(squaresArray, ["b_3","c_3","d_3"]);
+const line24 = JudgeLine(squaresArray, ["b_4","c_4","d_4"]);
+const line25 = JudgeLine(squaresArray, ["b_5","c_5","d_5"]);
+
+
+const line26 = JudgeLine(squaresArray, ["c_1","d_1","e_1"]);
+const line27 = JudgeLine(squaresArray, ["c_2","d_2","e_2"]);
+const line28 = JudgeLine(squaresArray, ["c_3","d_3","e_3"]);
+const line29 = JudgeLine(squaresArray, ["c_4","d_4","e_4"]);
+const line30 = JudgeLine(squaresArray, ["c_5","d_5","e_5"]);
+
+
+const line31 = JudgeLine(squaresArray, ["a_3","b_4","c_5"]);
+const line32 = JudgeLine(squaresArray, ["a_2","b_3","c_4"]);
+const line33 = JudgeLine(squaresArray, ["b_3","c_4","d_5"]);
+const line34 = JudgeLine(squaresArray, ["a_1","b_2","c_3"]);
+const line35 = JudgeLine(squaresArray, ["b_2","c_3","d_4"]);
+const line36 = JudgeLine(squaresArray, ["c_3","d_4","e_5"]);
+const line37 = JudgeLine(squaresArray, ["b_1","c_2","d_3"]);
+const line38 = JudgeLine(squaresArray, ["c_2","d_3","e_4"]);
+const line39 = JudgeLine(squaresArray, ["c_1","d_2","e_3"]);
+
+
+const line40 = JudgeLine(squaresArray, ["a_3","b_2","c_1"]);
+const line41 = JudgeLine(squaresArray, ["a_4","b_3","c_2"]);
+const line42 = JudgeLine(squaresArray, ["b_3","c_2","d_1"]);
+const line43 = JudgeLine(squaresArray, ["a_5","b_4","c_3"]);
+const line44 = JudgeLine(squaresArray, ["b_4","c_3","d_2"]);
+const line45 = JudgeLine(squaresArray, ["c_3","d_2","e_1"]);
+const line46 = JudgeLine(squaresArray, ["b_5","c_4","d_3"]);
+const line47 = JudgeLine(squaresArray, ["c_4","d_3","e_2"]);
+const line48 = JudgeLine(squaresArray, ["c_5","d_4","e_3"]);
+
+
 
 
 const lineArray = [line1 , line2 , line3 , line4 , line5 , line6 , line7 , line8];
