@@ -122,11 +122,11 @@ header{
 }
 
 .js-pen_highLight{
-    border :solid 2px yellow;
+    border :solid 8px yellow;
 }
 
 .js-bear_highLight{
-    border: solid 2px darksalmon;
+    border: solid 8px yellow;
 }
 
 .btn{
