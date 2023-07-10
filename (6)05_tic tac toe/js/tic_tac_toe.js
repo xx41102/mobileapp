@@ -339,8 +339,9 @@ function gameOver(status){
     music.currentTime = 0;
     music.play();
     
-    square.classList.add("js-unclickable");
-    
+    squaresArray.forEach(function(square){
+        square.classList.add("js-unclickable");
+    });
 
     newgamebtn_display.classList.remove("js-hidden");
 
