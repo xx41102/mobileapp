@@ -325,10 +325,10 @@ function gameOver(status){
         }
         $(document).snowfall({
             flakeColor : "rgb(255,240,245)",
-            maxSpeed: 15,
-            minSpeed: 15,
-            maxSize: 20,
-            minSize: 10,
+            maxSpeed: 8,
+            minSpeed: 3,
+            maxSize: 12,
+            minSize: 5,
             round: true
         });
     }else if(status === "bear"){
@@ -340,10 +340,10 @@ function gameOver(status){
 
         $(document).snowfall({
             flakeColor : "rgb(253,238,239)",
-            maxSpeed: 60,
-            minSpeed: 70,
-            maxSize: 15,
-            minSize: 15,
+            maxSpeed: 6,
+            minSpeed: 3,
+            maxSize: 13,
+            minSize: 7,
             round: true
         });
     }
