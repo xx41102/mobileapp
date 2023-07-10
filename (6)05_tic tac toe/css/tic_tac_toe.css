@@ -46,7 +46,7 @@ header{
 }
 
 .game-container{
-    padding:40px 0;
+    padding:20px 0;
 }
 
 
@@ -81,6 +81,7 @@ header{
     display:flex;
     flex-wrap: wrap;
     border: solid 2px #333;
+    margin:0;
 }
 
 .square{
