@@ -118,7 +118,7 @@ const msgtxt5 = '<p class = "image"><img src = "img/penguins.jpg" width=61px hei
 
 function JudgeLine(targetArray, idArray){
     return targetArray.filter(function(e){
-        return(e.id === idArray[0] || e.id === idArray[1] || e.id === idArray[2]);
+        return(e.id === idArray[0] || e.id === idArray[1] || e.id === idArray[2] || e.id === idArray[3]);
     });
 }
 
