@@ -102,6 +102,7 @@ header{
     content: '';
     background-image: url(../img/penguins.jpg);
     background-size: contain;
+    z-index:-1;
 }
 
 .js-bear-checked::before{
@@ -113,6 +114,7 @@ header{
     content: '';
     background-image: url(../img/whitebear.jpg);
     background-size: contain;
+    z-index:-1;
 }
 
 .js-unclickable{
