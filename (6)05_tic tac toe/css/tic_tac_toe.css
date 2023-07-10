@@ -56,9 +56,9 @@ header{
 }
 
 .message-container{
-    margin-bottom:20px;
+    margin-bottom:25px;
     font-size:2em;
-    font-weight:bold;
+    font-weight:bolder;
     overflow:hidden;
 }
 
@@ -72,12 +72,12 @@ header{
     display:flex;
     flex-wrap:wrap;
     margin:0 auto;
-    width: 200px;
+    width: 310px;
 }
 
 .squares-box{
-    width:200px;
-    height:200px;
+    width:309px;
+    height:309px;
     display:flex;
     flex-wrap: wrap;
     border: solid 2px #333;
@@ -85,8 +85,8 @@ header{
 
 .square{
     position:relative;
-    width:calc(196px/5);
-    height:calc(196px/5);
+    width:calc(305px/5);
+    height:calc(305px/5);
     border: solid 2px #333;
 }
 
