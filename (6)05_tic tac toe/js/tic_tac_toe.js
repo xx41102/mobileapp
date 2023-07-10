@@ -387,7 +387,7 @@ function gameOver(status){
             });
         }
         $(document).snowfall({
-            flakeColor : "rgb(255,240,245)",
+            flakeColor : "rgb(255,250,250)",
             maxSpeed: 8,
             minSpeed: 3,
             maxSize: 12,
@@ -402,9 +402,9 @@ function gameOver(status){
         }
 
         $(document).snowfall({
-            flakeColor : "rgb(253,238,239)",
-            maxSpeed: 6,
-            minSpeed: 3,
+            flakeColor : "rgb(255,105,180)",
+            maxSpeed: 5,
+            minSpeed: 2,
             maxSize: 13,
             minSize: 7,
             round: true
