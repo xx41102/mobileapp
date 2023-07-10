@@ -106,7 +106,7 @@ const line48 = JudgeLine(squaresArray, ["c_5","d_4","e_3"]);
 
 
 
-const lineArray = [line1 , line2 , line3 , line4 , line5 , line6 , line7 , line8];
+const lineArray = [line1 , line2 , line3 , line4 , line5 , line6 , line7 , line8 , line9 , line10 , line11 , line12 , line13 , line14 , line15 , line16 , line17 , line18 , line19 , line20 , line21 , line22 , line23 , line24 , line25 , line26 , line27 , line28 , line29 , line30 , line31 , line32 , line33 , line34 , line35 , line36 , line37 , line38 , line39 , line40 , line41 , line42 , line43 , line44 , line45 , line46 , line47 , line48];
 
 let winningLine = null;
 
@@ -143,6 +143,14 @@ a_3.addEventListener("click",()=>{
     isSelect(a_3);
 });
 
+a_4.addEventListener("click",()=>{
+    isSelect(a_4);
+});
+
+a_5.addEventListener("click",()=>{
+    isSelect(a_5);
+});
+
 b_1.addEventListener("click",()=>{
     isSelect(b_1);
 });
@@ -153,6 +161,14 @@ b_2.addEventListener("click",()=>{
 
 b_3.addEventListener("click",()=>{
     isSelect(b_3);
+});
+
+b_4.addEventListener("click",()=>{
+    isSelect(b_4);
+});
+
+b_5.addEventListener("click",()=>{
+    isSelect(b_5);
 });
 
 c_1.addEventListener("click",()=>{
@@ -167,6 +183,53 @@ c_3.addEventListener("click",()=>{
     isSelect(c_3);
 });
 
+c_4.addEventListener("click",()=>{
+    isSelect(c_4);
+});
+
+c_5.addEventListener("click",()=>{
+    isSelect(c_5);
+});
+
+d_1.addEventListener("click",()=>{
+    isSelect(d_1);
+});
+
+d_2.addEventListener("click",()=>{
+    isSelect(d_2);
+});
+
+d_3.addEventListener("click",()=>{
+    isSelect(d_3);
+});
+
+d_4.addEventListener("click",()=>{
+    isSelect(d_4);
+});
+
+d_5.addEventListener("click",()=>{
+    isSelect(d_5);
+});
+
+e_1.addEventListener("click",()=>{
+    isSelect(e_1);
+});
+
+e_2.addEventListener("click",()=>{
+    isSelect(e_2);
+});
+
+e_3.addEventListener("click",()=>{
+    isSelect(e_3);
+});
+
+e_4.addEventListener("click",()=>{
+    isSelect(e_4);
+});
+
+e_5.addEventListener("click",()=>{
+    isSelect(e_5);
+});
 
 function isSelect(selectSquare){
     if(flag === "A-flag"){
@@ -276,7 +339,7 @@ function gameOver(status){
         }
 
         $(document).snowfall({
-            flakeColor : "rgb(87,87,87)",
+            flakeColor : "rgb(253,238,239)",
             maxSpeed: 60,
             minSpeed: 70,
             maxSize: 15,
@@ -288,7 +351,7 @@ function gameOver(status){
 
 newgamebtn.addEventListener("click",()=>{
     flag = "A-flag";
-    counter = 9;
+    counter = 25;
     winningLine = null;
     squaresArray.forEach(function(square){
         square.classList.remove("js-pen-checked");
