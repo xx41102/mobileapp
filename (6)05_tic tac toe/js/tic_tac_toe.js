@@ -55,11 +55,11 @@ const line11 = JudgeLine(squaresArray, ["a_1","b_1","c_1","d_1"]);
 const line12 = JudgeLine(squaresArray, ["b_1","c_1","d_1","e_1"]);
 const line13 = JudgeLine(squaresArray, ["a_2","b_2","c_2","d_2"]);
 const line14 = JudgeLine(squaresArray, ["b_2","c_2","d_2","e_2"]);
-const line15 = JudgeLine(squaresArray, ["a_3","b_3","c_3","c_3"]);
+const line15 = JudgeLine(squaresArray, ["a_3","b_3","c_3","d_3"]);
 const line16 = JudgeLine(squaresArray, ["b_3","c_3","d_3","e_3"]);
 const line17 = JudgeLine(squaresArray, ["a_4","b_4","c_4","d_4"]);
 const line18 = JudgeLine(squaresArray, ["b_4","c_4","d_4","e_4"]);
-const line19 = JudgeLine(squaresArray, ["a_5","b_5","c_5","c_5"]);
+const line19 = JudgeLine(squaresArray, ["a_5","b_5","c_5","d_5"]);
 const line20 = JudgeLine(squaresArray, ["b_5","c_5","d_5","e_5"]);
 
 const line21 = JudgeLine(squaresArray, ["a_2","b_3","c_4","d_5"]);
